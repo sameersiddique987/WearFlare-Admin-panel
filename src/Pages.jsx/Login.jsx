@@ -43,7 +43,7 @@ const Login = () => {
         });
 
         setTimeout(() => {
-          navigate("/");
+          navigate("/Home");
         }, 2000); 
 
       } else {

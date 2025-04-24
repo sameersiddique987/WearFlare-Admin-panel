@@ -4,7 +4,7 @@ import axios from "axios";
 const Home = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
-  const token = localStorage.getItem("token"); // token saved after login
+  const token = localStorage.getItem("token"); 
 
   useEffect(() => {
     const fetchOrders = async () => {
