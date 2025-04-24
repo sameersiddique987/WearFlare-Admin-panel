@@ -43,7 +43,7 @@ const Login = () => {
         });
 
         setTimeout(() => {
-          navigate("/Home");
+          navigate("/AdminDashboard");
         }, 2000); 
 
       } else {

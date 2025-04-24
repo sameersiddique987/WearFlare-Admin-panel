@@ -1,10 +1,9 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-import Home from './Pages.jsx/Home'
 import Login from './Pages.jsx/Login'
 import Layout from './Layout'
+import AdminDashboard from './Pages.jsx/AdminDashboard'
 
 
 
@@ -19,8 +18,8 @@ const router = createBrowserRouter([
       element:<Login />
     },
     {
-      path:"home",
-      element:<Home />
+      path:"AdminDashboard",
+      element:<AdminDashboard />
     },
    
   
